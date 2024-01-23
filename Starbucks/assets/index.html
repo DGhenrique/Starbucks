@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="Diogo Henrique">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer> </script>
+
+    <title>Starbucks</title>
+
+</head>
+
+<body>
+    <div class="circulo"></div>
+
+    <img src="./images/logo.png" class="logo">
+
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h2><br>It's not just Coffee</br>It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, minima ab inventore a, accusamus
+                facilis ea
+                reiciendis nostrum quidem minus voluptas molestiae modi deleniti distinctio magni in ex fugit
+                laudantium!</p>
+            <button id="likeButton">☕</button>
+        </div>
+        <div class="caixa-imagem">
+            <img src="./images/img1.png" class="copo">
+        </div>
+
+    </div>
+
+    <div class="menu">
+        <img src="./images/img-pequena1.png" class="copo-pequeno"
+            onclick="trocaImagem('./images/img1.png'); trocaCor('#017143')">
+        <img src="./images/img-pequena2.png" class="copo-pequeno"
+            onclick="trocaImagem('./images/img2.png'); trocaCor('#eb7495')">
+        <img src="./images/img-pequena3.png" class="copo-pequeno"
+            onclick="trocaImagem('./images/img3.png'); trocaCor('#d752b1')">
+    </div>
+</body>
+
+</html>
